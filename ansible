@@ -1,0 +1,7 @@
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible -y
+ansible --version
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py --user  # Use python3 if necessary.pip install --user ansible  # For user-specific installation.
+# or for a global installation (requires sudo):
+sudo pip install ansible 
