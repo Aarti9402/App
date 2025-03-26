@@ -1,0 +1,4 @@
+apt install docker.io -y
+service docker start
+docker run -dt --name c01 ubuntu 
+
